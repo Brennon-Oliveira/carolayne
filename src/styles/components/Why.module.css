@@ -1,6 +1,8 @@
 .why {
     padding: 1.5rem;
     background-image: url('./../../images/orquideas.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 95vh;
     position: relative;
     color: var(--gray1);

@@ -1,0 +1,9 @@
+.about {
+    padding: 3rem;
+    color: var(--gray5);
+}
+
+.about p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}

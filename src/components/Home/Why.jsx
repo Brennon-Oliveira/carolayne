@@ -1,5 +1,4 @@
 import styles from "./../../styles/components/Why.module.css";
-import orquideas from "./../../images/orquideas.jpeg";
 
 export default function Why() {
     return(
