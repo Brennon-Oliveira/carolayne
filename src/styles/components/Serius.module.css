@@ -1,0 +1,14 @@
+.serius {
+    padding: 3rem;
+    background-color: var(--black);
+    color: var(--gray1);
+}
+
+.serius h2 {
+    color: var(--white);
+}
+
+.serius p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
