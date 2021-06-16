@@ -124,11 +124,11 @@ export default function About(){
         <section class={styles.quiz}>
             <div className="container-min">
                 <h2>Quiz</h2>
-                <p> Além da mensagem, também queria que você pudesse se divertir com isso (espero que funcione), então fui atrás de algumas coisas pra montar um mini quiz sobre coisas envolvendo a gente de alguma forma, espero que goste! ( Depois me manda foto de como se saiu kkkkk ) </p>
-                <p> Quando a pergunta for por escrito, será sempre uma palavra</p>
+                <p> Além da mensagem, também queria que você pudesse se divertir com isso (espero que funcione), então fui atrás de algumas coisas pra montar um mini quiz sobre coisas envolvendo a gente de alguma forma, espero que goste! (Depois me manda foto de como se saiu kkkkk).</p>
+                <p> A resposta sempre será uma única palavra, e sem espaços ou símbolos.</p>
                 <div className={styles.form}>
                 {
-                    showResult && <p>{ hits } / {quiz.length} </p>
+                    showResult && <p>Você acertou: { hits }/{quiz.length} </p>
                 }
 
                     {
@@ -142,9 +142,10 @@ export default function About(){
                         })
                     }
 
-                    <div className={styles.btn}>
+                    { !showResult && <div className={styles.btn}>
                         <button onClick={result}>Conferir!</button>
-                    </div>
+                    </div>}
+                    
 
                 </div>
             </div>

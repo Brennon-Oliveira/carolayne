@@ -5,7 +5,7 @@ export default function Header(){
     return (
         <header class={styles.header}>
             <div className="container">
-                <h1>Para Carolayne</h1>
+                <h1>Para Carolayne (bb)</h1>
             </div>
         </header>
     )
